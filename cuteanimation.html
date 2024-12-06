@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Animation</title>
+    <style>
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotating-text {
+            display: inline-block;
+            font-size: 50px;
+            animation: rotate 5s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="rotating-text">HAYILOO</h1>
+    <h2 class="rotating-text">YOU ARE</h2>
+    <h3 class="rotating-text">CUTUU</h3>
+
+</body>
+</html>
